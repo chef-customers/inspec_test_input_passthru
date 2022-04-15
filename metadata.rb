@@ -17,3 +17,6 @@ chef_version '>= 16.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/inspec_test_input_passthru'
+
+depends 'audit'
+depends 'chocolatey'

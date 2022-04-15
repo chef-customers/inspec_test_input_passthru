@@ -1,0 +1,1 @@
+include_controls 'profile_with_inputs'

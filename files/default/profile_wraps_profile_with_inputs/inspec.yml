@@ -1,0 +1,23 @@
+---
+name: profile_wraps_profile_with_inputs
+title: InSpec Profile
+maintainer: The Authors
+copyright: The Authors
+copyright_email: you@example.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+supports:
+  platform: os
+
+depends:
+- name: profile_with_inputs
+  path: ../profile_with_inputs
+
+inputs:
+  - name: caption
+    desc: "this is an input of type string"
+    type: String
+    value: "caption two"
+    priority: 70
+    profile: profile_with_inputs
